@@ -2,10 +2,11 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "server,js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "cd flora && npm install && npm run build"
+    "heroku-postbuild": "cd flora && npm install && npm run build",
+    "build": "webpack"
   },
   "author": "fahima begum",
   "license": "ISC"
