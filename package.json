@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "cd flora && npm install && npm run build",
-    "build": 
+    "build": "webpack"
   },
   "author": "fahima begum",
   "license": "ISC"
